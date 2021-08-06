@@ -71,7 +71,7 @@ service = ScheduledVumosService(
             "key": "domains",
             "value": {
                 "type": "string",
-                "default": "seijihariki.top"  # "default.local"
+                "default": "default.local"
             }
         }],
     pool_interval=60 * 60 * 24  # Runs task every day
